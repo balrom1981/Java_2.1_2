@@ -3,7 +3,7 @@
 1. **Дата создания** - 22.12.2020
 1. Было создано приложение на основе следующего кода:
 
-```ppublic class Main {
+```public class Main {
     public static void main(String[] args) {
         int amount = 100;
         int addition = 15000;
@@ -14,9 +14,10 @@
         if (addition > limit) {
             total = amount + addition + bonus;
         } else {
-              total = amount + addition;}
-    System.out.println(total);
-}
+            total = amount + addition;
+        }
+        System.out.println(total);
+    }
 }
 ```
 где 

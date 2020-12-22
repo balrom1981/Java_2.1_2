@@ -9,7 +9,8 @@ public class Main {
         if (addition > limit) {
             total = amount + addition + bonus;
         } else {
-              total = amount + addition;}
-    System.out.println(total);
-}
+            total = amount + addition;
+        }
+        System.out.println(total);
+    }
 }
